@@ -1,0 +1,7 @@
+(ns avg-per-min.core-test
+  (:require [clojure.test :refer :all]
+            [avg-per-min.core :refer :all]))
+
+(deftest test-it-up
+  (testing "collect-marker"
+    (is (= 0 1))))
